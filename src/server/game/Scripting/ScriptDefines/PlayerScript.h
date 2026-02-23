@@ -262,10 +262,7 @@ public:
     virtual void OnPlayerTalentsReset(Player* /*player*/, bool /*noCost*/) { }
 
     // Called when a player attempts to put a point in a talent.
-    virtual bool OnPlayerCanLearnTalent(Player* /*player*/, TalentEntry const* /*talent*/, uint32 /*rank*/) 
-    {
-        return true;
-    }
+    virtual bool OnPlayerCanLearnTalent(Player* /*player*/, TalentEntry const* /*talent*/, uint32 /*rank*/) { return true; }
 
     // Called after a player switches specs using the dual spec system
     virtual void OnPlayerAfterSpecSlotChanged(Player* /*player*/, uint8 /*newSlot*/) { }
