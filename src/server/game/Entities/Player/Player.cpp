@@ -13971,7 +13971,7 @@ void Player::LearnTalent(uint32 talentId, uint32 talentRank, bool command /*= fa
     {
         return;
     }
-    
+
     TalentTabEntry const* talentTabInfo = sTalentTabStore.LookupEntry(talentInfo->TalentTab);
     if (!talentTabInfo)
         return;
